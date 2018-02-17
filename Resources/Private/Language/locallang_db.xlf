@@ -57,6 +57,9 @@
 			<trans-unit id="settings.enableFESSO">
 				<source>Frontend SSO: Enable Single Sign-On for Frontend users.</source>
 			</trans-unit>
+			<trans-unit id="settings.FESSOKeepDomainName">
+				<source>Frontend SSO: Keep the domain name after a successfull login (for example on a CAS-Server), to continue the chain of authentication through LDAP.</source>
+			</trans-unit>
 			<trans-unit id="settings.errors.error">
 				<source>Errors found in your configuration</source>
 			</trans-unit>

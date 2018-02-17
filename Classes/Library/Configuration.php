@@ -97,6 +97,8 @@ class Configuration
 
         static::$fe['LDAPAuthentication'] = (bool)$globalConfiguration['enableFELDAPAuthentication'];
         static::$fe['SSOAuthentication'] = (bool)$globalConfiguration['enableFESSO'];
+        static::$fe['SSOKeepDomainName'] = (bool)$globalConfiguration['FESSOKeepDomainName'];
+
         static::$fe['forceLowerCaseUsername'] = $globalConfiguration['forceLowerCaseUsername'] ? (bool)$globalConfiguration['forceLowerCaseUsername'] : false;
         static::$fe['evaluateGroupsFromMembership'] = $configuration->getGroupMembership() === static::GROUP_MEMBERSHIP_FROM_MEMBER;
         static::$fe['IfUserExist'] = (bool)$globalConfiguration['TYPO3FEUserExist'];
